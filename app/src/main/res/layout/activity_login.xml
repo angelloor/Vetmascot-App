@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <ImageView
+        android:id="@+id/img_fondo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fondologin" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="#d8000000"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txt_titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Iniciar Sesión"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="40dp"
+            android:textStyle="bold"></TextView>
+
+        <ImageView
+            android:id="@+id/img_logo"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:src="@drawable/favicon"></ImageView>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/impCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginTop="10dp"
+            android:clipToPadding="false"
+            android:gravity="bottom"
+            android:paddingTop="4dp"
+            android:textColorHint="@color/white">
+
+            <EditText
+                android:id="@+id/et_correo_login"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/input"
+                android:gravity="center"
+                android:hint="Correo electrónico"
+                android:paddingLeft="17dp"
+                android:paddingRight="17dp"
+                android:singleLine="true"
+                android:textColor="#fff"
+                android:textColorHint="#ccc" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/impClave"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginTop="10dp"
+            android:clipToPadding="false"
+            android:gravity="bottom"
+            android:paddingTop="4dp"
+            android:textColorHint="@color/white">
+
+            <EditText
+                android:id="@+id/et_clave_login"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/input"
+                android:gravity="center"
+                android:hint="Contraseña"
+                android:inputType="textPassword"
+                android:paddingLeft="17dp"
+                android:paddingRight="17dp"
+                android:singleLine="true"
+                android:textColor="#fff"
+                android:textColorHint="#ccc" />
+
+        </android.support.design.widget.TextInputLayout>
+        <CheckBox
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Guardar contraseña"
+            android:id="@+id/checkbox"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:id="@+id/btn_olvidaste"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:gravity="end"
+            android:paddingTop="10dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@android:color/transparent"
+            android:text="¿Olvidaste tu contraseña?"/>
+
+        <Button
+            android:id="@+id/btn_iniciar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_color"
+            android:textColor="#fff"
+            android:textSize="16dp"
+            android:elevation="5dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginBottom="30dp"
+            android:text="Iniciar Sesión" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tw_crearcuenta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textSize="16sp"
+                android:text="¿Aún no tienes cuenta?" />
+
+            <Button
+            android:id="@+id/btn_crearcuenta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:textColor="#fff"
+            android:layout_marginLeft="10dp"
+            android:text="Crear Cuenta" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/btn_atras"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:textColor="#fff"
+            android:layout_marginLeft="10dp"
+            android:text="Atras" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".acerca">
+
+    <ImageView
+        android:id="@+id/img_fondo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fondologin" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="#d8000000"
+        android:gravity="center"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/txt_titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Acerca de"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="25dp"
+            android:textStyle="bold"></TextView>
+        <TextView
+            android:id="@+id/TvDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:textSize="12dp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:text="En nuestra empresa se diseña, se desarrolla y se prueban nuestros equipos innovadores hasta que estén listos para su comercialización. Nuestras principales prioridades son la alta calidad y la funcionalidad." android:layout_gravity="left"
+            >
+
+        </TextView>
+        <TextView
+            android:id="@+id/txt_integrantes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="integrantes"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <ImageView
+            android:id="@+id/img_integrantes"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:src="@drawable/integrantes"></ImageView>
+
+        <Button
+            android:id="@+id/btn_regresar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:paddingTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@android:color/transparent"
+            android:text="Atras"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

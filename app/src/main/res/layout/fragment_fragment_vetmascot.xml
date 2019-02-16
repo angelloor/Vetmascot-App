@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentVetmascot">
+
+
+    <ImageView
+        android:id="@+id/img_fondo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fondo1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="#d8000000"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <TextView
+        android:id="@+id/txt_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ESTADO"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="30dp"></TextView>
+        <TextView
+            android:id="@+id/txt_estado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LLENO"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="30dp"></TextView>
+
+
+        <Button
+            android:id="@+id/btn_activar_sms"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@drawable/btn_redondo"
+            android:textColor="#FFFFFF"
+            android:textSize="16dp"
+            android:elevation="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:paddingBottom="20dp"
+            android:layout_marginBottom="60dp"
+            android:text="Activar" />
+
+        <Button
+            android:id="@+id/btn_configuracion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_color"
+            android:textColor="#fff"
+            android:textSize="16dp"
+            android:elevation="5dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginBottom="30dp"
+            android:text="Configuracion" />
+
+    </LinearLayout>
+
+</RelativeLayout>

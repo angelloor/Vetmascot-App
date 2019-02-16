@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "715247367173",
+    "firebase_url": "https://vetmascot-3b515.firebaseio.com",
+    "project_id": "vetmascot-3b515",
+    "storage_bucket": "vetmascot-3b515.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715247367173:android:84c8736e4d8f71d7",
+        "android_client_info": {
+          "package_name": "com.example.miguelangelloor.proyectofinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "715247367173-c6116olms70lg48h7tnp4atu41bq1ofn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.miguelangelloor.proyectofinal",
+            "certificate_hash": "bd1c33fd49327873ac5c45703e9464b72c972aa4"
+          }
+        },
+        {
+          "client_id": "715247367173-r1i2hg87kj2obqe6i20sord0htfo1u8e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaAjFxzzg1EcT2CMMqX88g9_X6U4Z1McA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "715247367173-r1i2hg87kj2obqe6i20sord0htfo1u8e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
